@@ -1,0 +1,33 @@
+table{
+    border-spacing: 15px;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+td
+{
+    background-color: orangered;
+    height: 30px;
+    width: 30px;
+    border: 25px solid green;
+    
+}
+ 
+
+tr:nth-child(even) td:nth-child(odd), 
+tr:nth-child(odd) td:nth-child(even)
+{
+   background-color: green;
+    height: 30px;
+    width: 30px;
+    border: 25px solid orangered;
+}
+
+
+
+
+    
